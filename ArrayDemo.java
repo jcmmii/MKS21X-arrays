@@ -50,7 +50,7 @@ public class ArrayDemo {
     int a = 0;
     int [][] poi = new int [vals.length] [];
     for (int t = 0; t < vals.length; t++) {
-      poi[t] = new int [vals[t].length]; //poi[t] is the row, making the # of columns
+      poi[t] = new int [vals[t].length]; 
       for (int s = 0; s <vals[t].length; s++) {
         a = vals[t][s];
         if (a < 0) {
