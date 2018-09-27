@@ -83,22 +83,22 @@ public class ArrayDemo {
       System.out.println(countZeros2D(heck));
 
     System.out.println("2a. Modifies a 2D array; all values replaced with 1 unless row number = column, in that case, replaced with 3");
-
-/*
       int [][] abc = new int[3][];
       abc[0] = new int [3];
-      abc[1] = new int [3];
+      abc[1] = new int [4];
       abc[2] = new int [5];
       fill2D(abc);
       printArray(abc);
 
-
+    System.out.println("2b. Makes new 2d array w/ same dimensions as parameter. Array filled w/ 1s, unless original was a negative number. Replace w/ 3 instead.");
       int [] [] bnm = new int [] [] {
         {-5,3,5},
         {23,45,62},
         {-5,-10,0},
       };
+      System.out.println("Original array: ");
+      printArray(bnm);
+      System.out.println("New array:");
       printArray(fill2DCopy(bnm));
-*/
 }
 }
